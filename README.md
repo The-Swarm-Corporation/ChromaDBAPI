@@ -30,7 +30,7 @@ A production-ready FastAPI application that creates a searchable vector database
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone (https://github.com/The-Swarm-Corporation/ChromaDBAPI/)
 cd pdf-vector-search-api
 ```
 
@@ -58,7 +58,7 @@ The application uses several environment variables that can be configured:
 
 2. Start the server:
 ```bash
-python app.py
+python main.py
 ```
 
 The API will automatically:
