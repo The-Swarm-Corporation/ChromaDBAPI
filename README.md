@@ -30,8 +30,8 @@ A production-ready FastAPI application that creates a searchable vector database
 
 1. Clone the repository:
 ```bash
-git clone (https://github.com/The-Swarm-Corporation/ChromaDBAPI/)
-cd pdf-vector-search-api
+git clone https://github.com/The-Swarm-Corporation/ChromaDBAPI/
+cd ChromaDBAPI
 ```
 
 2. Install required dependencies:
@@ -137,7 +137,7 @@ The API includes extensive error handling:
 
 For development mode with auto-reload:
 ```bash
-uvicorn app:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ## API Documentation
